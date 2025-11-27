@@ -85,11 +85,15 @@ NN-DEVOPS-CHALLENGE/
 ![Terraform apply outputs](images/resources_created.png)
 ![Azure resource group](images/resources_group_azure.png)
 
-### Docker image and Azure Container Registry
+### Docker image
 ![Docker images](images/docker_images.png)
+
+### Azure Container Registry
 ![ACR nn-predictor repository](images/repo_nn_predictor.png)
 
-### AKS deployment and FastAPI endpoints
+### AKS deployment
 ![AKS deployment](images/aks_workload_nn_predictor_deploy.png)
+
+### FastAPI endpoints
 ![FastAPI /health endpoint](images/status_health_ok.png)
 ![FastAPI /predict endpoint](images/api_predict_web.png)
