@@ -39,13 +39,15 @@ The “prediction” is intentionally **mocked** (not a real neural network or t
 
 ---
 
-## 3. Tech Stack
+## Core Technology Stack
 
-- **Backend**: Python 3.10, FastAPI, Uvicorn  
-- **Containerization**: Docker  
-- **Cloud**: Microsoft Azure (Resource Group, ACR, AKS)  
-- **IaC**: Terraform (AzureRM provider)  
-- **Orchestration**: Kubernetes (Deployment, Service)
+- **FastAPI (Python)** — REST API service.
+- **Uvicorn** — ASGI server to run the FastAPI app.
+- **Docker** — containerization for reproducible builds and portable execution.
+- **Terraform** — Infrastructure as Code to provision cloud resources.
+- **Kubernetes (AKS)** — orchestration and deployment (Deployment + Service).
+- **Azure Container Registry (ACR)** — container image registry for storing and pulling images.
+- **kubectl + Azure CLI** — cluster access and deployment operations.
 
 ---
 
